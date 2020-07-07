@@ -8,7 +8,11 @@ describe('feature1', () => {
 
   describe('add', () => {
 
-    // tests go here
+    it('works with specific values', () => {
+      // specific known values
+      const result = add(1, 2);
+      assert.equal(result, 3);
+    });
 
   });
 
